@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.ttf");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Italic.ttf");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic; }
+html, body {
+  color: #383838;
+  height: 100%;
+  width: 100%; }
+
+section {
+  padding-top: 30px; }
+
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.section-title {
+  margin-bottom: 3em;
+  text-align: center; }
+
+.greentext {
+  color: #88b81c;
+  font-weight: 800; }
+
+a:focus {
+  outline: 0; }
+
+.navbar-default {
+  background-color: #383838;
+  border-color: #383838; }
+  .navbar-default .navbar-brand {
+    color: white;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  .navbar-default .navbar-brand:focus {
+    color: white; }
+  .navbar-default .navbar-brand:hover {
+    color: white; }
+  .navbar-default .navbar-nav li a {
+    color: white; }
+  .navbar-default .navbar-nav li a:hover {
+    color: #88b81c; }
+  .navbar-default .navbar-nav li a:focus {
+    color: #88b81c; }
+  .navbar-default .navbar-nav .active a {
+    color: #88b81c;
+    background-color: #383838; }
+  .navbar-default .navbar-nav .active a:focus {
+    color: #88b81c;
+    background-color: #383838; }
+  .navbar-default .navbar-nav .active a:hover {
+    color: #88b81c;
+    background-color: #383838; }
+  .navbar-default .navbar-toggle:hover {
+    background-color: #585858; }
+
+#background_top-wrapper {
+  background-color: #383838;
+  height: 800px;
+  width: 100%; }
+  @media screen and (max-width: 40.0625em) {
+    #background_top-wrapper {
+      height: 480px; } }
+  #background_top-wrapper .pagetitle {
+    padding-top: 220px;
+    text-align: center; }
+    @media screen and (max-width: 40.0625em) {
+      #background_top-wrapper .pagetitle {
+        padding-top: 160px; } }
+    #background_top-wrapper .pagetitle h1 {
+      margin: 0;
+      color: white;
+      font-weight: 700;
+      font-size: 6em; }
+      @media screen and (max-width: 40.0625em) {
+        #background_top-wrapper .pagetitle h1 {
+          font-size: 2em; } }
+      #background_top-wrapper .pagetitle h1 .greentext {
+        color: #88b81c; }
+    #background_top-wrapper .pagetitle p.subtitle {
+      color: #88b81c;
+      font-size: 1em;
+      font-weight: 600;
+      margin-top: 1em; }
+
+#greenwhite_bar_top {
+  margin-top: -150px; }
+
+.section-heading {
+  font-size: 2.5em; }
+
+#services h3 {
+  text-align: center;
+  margin-bottom: 1em; }
+#services .buttondiv {
+  margin-top: 1em;
+  text-align: center; }
+  #services .buttondiv .custom-button {
+    background-color: #88b81c; }
+#services .fullServices h4 {
+  font-weight: bold; }
+#services .fullServices article .service-description {
+  margin-top: 25px;
+  min-height: 280px;
+  margin-bottom: 25px;
+  height: 100%; }
+#services .fullServices article ul {
+  padding-left: 20px; }
+#services .fullServices article .price {
+  font-size: 1.5em;
+  font-weight: 600;
+  position: absolute;
+  bottom: 25px;
+  right: 50px; }
+#services .fullServices .tab-title {
+  color: #383838;
+  font-size: 1.25em; }
+
+#contact textarea {
+  height: 150px; }
+#contact label {
+  text-align: left; }
+#contact iframe {
+  height: 400px;
+  border: 0;
+  width: 100%; }
+#contact .buttondiv {
+  text-align: right; }
+  #contact .buttondiv .send-contact {
+    margin-top: 10px;
+    font-size: 10pt; }
+
+.greenwhite-bar svg {
+  height: 150px;
+  width: 100%; }
+  @media screen and (max-width: 40.0625em) {
+    .greenwhite-bar svg {
+      margin-top: 100px;
+      height: 50px; } }
+
+.greengray-bar {
+  height: 150px; }
+  @media screen and (max-width: 40.0625em) {
+    .greengray-bar {
+      height: 50px; } }
+  .greengray-bar svg {
+    height: 150px;
+    width: 100%; }
+    @media screen and (max-width: 40.0625em) {
+      .greengray-bar svg {
+        height: 50px; } }
+
+#technologies-wrapper .tech-logo {
+  height: 150px;
+  margin-bottom: 1em;
+  text-align: center; }
+
+#footer {
+  padding-top: 0;
+  background-color: #383838;
+  color: #F5F5F5; }
+  #footer .row {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em; }
+    #footer .row ul {
+      list-style-type: none; }
+  #footer h3 {
+    color: #F1F1F1;
+    font-size: 1.2em; }
+  #footer a {
+    font-size: .8em;
+    color: #FFFFFF; }
+  #footer a:hover {
+    text-decoration: none;
+    color: #88b81c; }
+
+#agb {
+  margin-top: -40px; }
+  #agb h1 {
+    text-align: center; }
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+
+  .top-nav-collapse {
+    padding: 0; } }
+@media only screen and (max-width: 768px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0; }
+
+  #services {
+    margin-top: -15px; }
+    #services .section-title {
+      margin-bottom: 0; }
+    #services .fullServices article .service-description {
+      margin-top: 10px;
+      margin-bottom: 25px;
+      min-height: 0; }
+    #services .fullServices article .price {
+      font-size: 1.25em;
+      margin-top: 25px;
+      position: static;
+      padding-left: 70%; }
+
+  #contact {
+    padding-top: 20px; }
+    #contact .iframe-wrapper {
+      text-align: center; }
+    #contact iframe {
+      height: 300px;
+      border: 0;
+      width: 80%;
+      margin-top: 1em; }
+
+  #technologies {
+    display: none; }
+
+  #footer ul {
+    padding: 0; }
+    #footer ul li {
+      margin-top: .5em;
+      margin-bottom: .5em; }
+  #footer h3 {
+    color: #88b81c;
+    font-size: 1.5em; }
+  #footer a {
+    font-size: 1.2em; }
+
+  nav ul li {
+    border-bottom: 1px solid #555555; } }
+@media only screen and (min-width: 1280px) {
+  body .fullWidth {
+    width: 1280px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+/* TEAM */
+	Web designer and developer: Kerim Gueney
+	email: kerim@gueney.org
+
+/* SITE */
+	Last update: 2016-Jan-10
+	Language: German
+	Doctype: HTML5
+	IDE: Emacs, Photoshop
